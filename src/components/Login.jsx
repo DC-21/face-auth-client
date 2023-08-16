@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Login = () => {
   return (
     <div className="w-full h-screen flex justify-center items-center bg-white">
@@ -23,13 +25,17 @@ const Login = () => {
             />
           </div>
           <div className="w-full flex flex-col justify-center items-center mt-2">
-            <button className="py-2 px-4 rounded flex justify-center bg-blue-700 text-white">
+            <button className="py-2 px-4 rounded flex justify-center bg-blue-700 text-white mt-2">
               Log in
             </button>
-            <p>or use</p>
-            <button className="py-2 px-4 rounded flex justify-center bg-orange-500 text-white">
+            <p className="mt-2">or use</p>
+            <button className="py-2 px-4 rounded flex justify-center bg-orange-500 text-white mt-2">
               FaceID
             </button>
+          </div>
+          <div className="flex gap-2 mt-2">
+            <p>Don't have an account</p>
+            <p>Sing in</p>
           </div>
         </div>
       </div>
