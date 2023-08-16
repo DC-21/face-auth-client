@@ -7,11 +7,11 @@ const Login = () => {
             <div className="w-full flex flex-col justify-center items-center">
                 <div className="w-full flex flex-col justify-center items-center mt-2">
                     <label className="mt-2 text-blue-800">Email</label>
-                    <input className="h-10 border-1 border-blue-900 justify-center" placeholder="email"/>
+                    <input type="email" className="h-10 mt-2 border rounded text-blue-800 border-blue-900 justify-center" placeholder="email"/>
                 </div>
                 <div className="w-full flex flex-col justify-center items-center mt-2">
                     <label className="mt-2 text-blue-800">Password</label>
-                    <input className="h-10 border-1 border-blue-900 justify-center" placeholder="password"/>
+                    <input type="password" className="h-10 mt-2 border rounded text-blue-800 border-blue-900 justify-center" placeholder="password"/>
                 </div>
             </div>
         </div>
